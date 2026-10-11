@@ -185,3 +185,33 @@
 .dish-price{font-size:14px}
 .menu-disclaimer{margin-top:0}
 }
+
+/* Delivery links sit beside existing pickup and booking actions. */
+.header-actions .delivery-link{font-size:12px;white-space:nowrap;margin-right:8px;text-decoration:underline;text-underline-offset:4px}
+.intro-actions{display:flex;align-items:center;flex-wrap:wrap;gap:14px 28px}
+.intro-actions .text-link{white-space:nowrap}
+.offering-copy>.text-link{margin-right:20px}
+.menu-detail-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px 24px}
+@media(max-width:1160px){
+.mobile-nav nav a.mobile-primary{border:1px solid var(--red);margin-top:12px;padding:10px 12px;text-align:center}
+.mobile-nav nav a.mobile-book{background:var(--red);color:var(--cream);margin-top:8px}
+}
+@media(max-width:600px){
+.intro-actions{align-items:flex-start;flex-direction:column;gap:14px}
+footer{flex-wrap:wrap}
+footer>a:nth-last-child(2){order:3;width:100%}
+}
+.header-actions .lang-switch{font-size:12px;white-space:nowrap;text-decoration:underline;text-underline-offset:4px;margin:0 5px}
+html[lang="zh-Hant"] h1,html[lang="zh-Hant"] h2,html[lang="zh-Hant"] h3,html[lang="zh-Hant"] .footer-brand{font-family:'Noto Serif TC',serif;letter-spacing:.02em}
+html[lang="zh-Hant"] .opening h1{font-size:clamp(4.5rem,16vw,17rem);letter-spacing:.02em}
+html[lang="zh-Hant"] .introduction h2{font-size:clamp(4.2rem,7vw,8rem);line-height:1.2}
+html[lang="zh-Hant"] .subpage-head h1{font-size:clamp(3.8rem,8vw,7rem);line-height:1.25;letter-spacing:0}
+html[lang="zh-Hant"] .menu-detail-hero h1{letter-spacing:0;line-height:1.25}
+@media(max-width:1160px){.mobile-nav nav .lang-switch{border-bottom:1px solid #d7c5bc}}
+@media(max-width:600px){html[lang="zh-Hant"] .opening h1{font-size:15vw}html[lang="zh-Hant"] .introduction h2{font-size:13vw}html[lang="zh-Hant"] .subpage-head h1{font-size:12vw}}
+.visit-order-title{margin-top:25px}
+.menu-delivery{border-top:1px solid var(--line);padding:28px 0 4px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.menu-delivery p{font-size:16px;color:var(--ink)}
+.menu-delivery .button{white-space:nowrap}
+.menu-delivery-detail{margin:-36px 0 54px;padding-top:25px}
+@media(max-width:600px){.menu-delivery{align-items:flex-start;flex-direction:column}.menu-delivery-detail{margin:-15px 0 42px}}

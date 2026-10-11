@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://dragoncove.netlify.app/</loc></url>
-  <url><loc>https://dragoncove.netlify.app/menu.html</loc></url>
-  <url><loc>https://dragoncove.netlify.app/menu/yum-cha.html</loc></url>
-  <url><loc>https://dragoncove.netlify.app/menu/a-la-carte.html</loc></url>
-  <url><loc>https://dragoncove.netlify.app/menu/banquets.html</loc></url>
-  <url><loc>https://dragoncove.netlify.app/menu/takeaway.html</loc></url>
-  <url><loc>https://dragoncove.netlify.app/private-room.html</loc></url>
+  <url><loc>https://www.dragoncove.com.au/</loc></url>
+  <url><loc>https://www.dragoncove.com.au/menu</loc></url>
+  <url><loc>https://www.dragoncove.com.au/private-room</loc></url>
+  <url><loc>https://www.dragoncove.com.au/menu/yum-cha</loc></url>
+  <url><loc>https://www.dragoncove.com.au/menu/a-la-carte</loc></url>
+  <url><loc>https://www.dragoncove.com.au/menu/banquets</loc></url>
+  <url><loc>https://www.dragoncove.com.au/menu/takeaway</loc></url>
+  <url><loc>https://www.dragoncove.com.au/zh/</loc></url>
+  <url><loc>https://www.dragoncove.com.au/zh/menu</loc></url>
+  <url><loc>https://www.dragoncove.com.au/zh/private-room</loc></url>
+  <url><loc>https://www.dragoncove.com.au/zh/menu/yum-cha</loc></url>
+  <url><loc>https://www.dragoncove.com.au/zh/menu/a-la-carte</loc></url>
+  <url><loc>https://www.dragoncove.com.au/zh/menu/banquets</loc></url>
+  <url><loc>https://www.dragoncove.com.au/zh/menu/takeaway</loc></url>
 </urlset>
