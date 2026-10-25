@@ -215,3 +215,28 @@ html[lang="zh-Hant"] .menu-detail-hero h1{letter-spacing:0;line-height:1.25}
 .menu-delivery .button{white-space:nowrap}
 .menu-delivery-detail{margin:-36px 0 54px;padding-top:25px}
 @media(max-width:600px){.menu-delivery{align-items:flex-start;flex-direction:column}.menu-delivery-detail{margin:-15px 0 42px}}
+
+/* A timely notice that keeps the landing page's editorial rhythm. */
+.refurbishment-note{background:#194b3c;color:var(--cream);border-bottom:3px solid #c8a56b}
+.refurbishment-inner{max-width:1800px;margin:auto;padding:25px 6.4% 28px;display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.85fr);align-items:center;gap:7%}
+.refurbishment-kicker{font-size:11px;line-height:1.5;letter-spacing:.2em;text-transform:uppercase;color:#e5cfaa;margin-bottom:8px}
+.refurbishment-note h2{font-size:clamp(2.4rem,4vw,4.7rem);line-height:.96;letter-spacing:-.035em}
+.refurbishment-note h2 em{white-space:nowrap}
+.refurbishment-inner>p{max-width:56ch;border-left:1px solid #83a18e;padding-left:28px;font-size:15px;line-height:1.6;color:#f4eee4}
+.refurbishment-inner strong{color:#fff8ee;font-weight:500;white-space:nowrap}
+html[lang="zh-Hant"] .refurbishment-note h2{font-size:clamp(2rem,3.2vw,3.6rem);line-height:1.25;letter-spacing:.02em}
+@media(max-width:760px){.refurbishment-inner{grid-template-columns:1fr;gap:16px;padding:22px 7% 25px}.refurbishment-note h2{font-size:clamp(2.5rem,9vw,4.2rem)}.refurbishment-inner>p{padding-left:17px;font-size:14px}.refurbishment-inner strong,.refurbishment-note h2 em{white-space:normal}}
+
+/* An invitation to the family's other restaurants during the renovation. */
+.sister-restaurants{display:grid;grid-template-columns:1fr .88fr;gap:10%;align-items:center;background:#e9dfd1;border-top:1px solid #d1bdaa;padding-top:76px;padding-bottom:84px}
+.sister-intro .eyebrow{margin-bottom:17px}
+.sister-intro h2{font-size:clamp(3.4rem,6vw,6.4rem);line-height:.93}
+.sister-intro>p:last-child{margin-top:24px;color:var(--ink);font-size:17px;max-width:38ch}
+.sister-links{border-top:1px solid #b99387}
+.sister-links a{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:23px 4px 24px;border-bottom:1px solid #b99387;transition:color .2s,padding-left .2s}
+.sister-links a:hover{color:#a33426;text-decoration:none;padding-left:12px}
+.sister-links strong{display:block;font:400 clamp(2.2rem,3.4vw,3.3rem)/1 var(--serif)}
+.sister-links small{display:block;margin-top:9px;color:var(--ink);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.sister-links a>span:last-child{font-size:25px;line-height:1}
+html[lang="zh-Hant"] .sister-intro h2{font-size:clamp(2.8rem,4.8vw,5.1rem);line-height:1.28}
+@media(max-width:760px){.sister-restaurants{grid-template-columns:1fr;gap:34px;padding-top:58px;padding-bottom:62px}.sister-intro h2{font-size:clamp(3.8rem,12vw,6rem)}.sister-intro>p:last-child{margin-top:19px;font-size:16px}.sister-links a{padding:20px 4px 21px}html[lang="zh-Hant"] .sister-intro h2{font-size:clamp(2.7rem,9vw,4.2rem)}}
